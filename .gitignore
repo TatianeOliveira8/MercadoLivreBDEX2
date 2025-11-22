@@ -1,0 +1,33 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Arquivos de configuração sensíveis
+.env
+*.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Banco de dados local
+*.db
+*.sqlite3
