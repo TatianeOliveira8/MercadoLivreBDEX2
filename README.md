@@ -29,9 +29,9 @@ source .venv/bin/activate
 pip install pymongo dnspython certifi
 ```
 
-5. Configure o arquivo `.env`:
+5. adiciona o mongo no aquivo`database.py`:
 ```env
-MONGODB_URI=sua_uri_do_mongodb_aqui
+uri = "bancoaqui"
 ```
 
 ## ▶️ Executar
@@ -40,17 +40,11 @@ MONGODB_URI=sua_uri_do_mongodb_aqui
 python menu.py
 ```
 
-ou
-
-```bash
-python main.py
-```
 
 ## 📁 Estrutura
 
 ```
 ├── database.py          # Configuração MongoDB
-├── main.py             # Arquivo principal
 ├── menu.py             # Menu interativo
 ├── models/             # Modelos de dados
 │   ├── usuario.py
